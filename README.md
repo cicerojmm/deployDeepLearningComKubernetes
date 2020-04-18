@@ -1,4 +1,4 @@
-#Deploy do modelo de Deep Learning (CNN) com Flask e Kubernetes
+# Deploy do modelo de Deep Learning (CNN) com Flask e Kubernetes
 
 Exemplo de como realizar o deploy de um modelo de Deep Learning, neste caso um CNN (Convolutional Neural Network) com alta disponibilidade utilizando o Kubernetes.
 
