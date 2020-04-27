@@ -7,7 +7,7 @@ spec:
     app: flask-app
   ports:
   - protocol: "TCP"
-    port: 6000
+    port: 80
     targetPort: 5000
   type: LoadBalancer
 
@@ -28,7 +28,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: flask-app:1.0
-        imagePullPolicy: Never
+        image: cicerojmm/flaskapps-mnist:1.0
         ports:
         - containerPort: 5000
